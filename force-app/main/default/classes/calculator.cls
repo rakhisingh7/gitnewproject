@@ -18,18 +18,19 @@ public with sharing class calculator {
         {
             Integer o=m/2;
         }
-        //devop test
-    }
-
-             public static void multiply(Integer a, Integer b)
-     {
-         Integer c=a*b;
-     }
-             public static void modulus(Integer a, Integer b)
-     {
-         Integer c=a%b;
-     }
-//test Rakhi
+        public static void multiply(Integer a, Integer b)
+        {
+             Integer c=a*b;
+        }
+        public static void modulus(Integer a, Integer b)
+        {
+            Integer c=a%b;
+        }
+            public static void oddnumber(Integer a, Integer b)
+        {
+            Integer c=a/2;
+        }
+        
 
 }
 
