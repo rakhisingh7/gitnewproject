@@ -49,6 +49,10 @@ public with sharing class calculator {
         {
             Integer c=a/2;
         }
+                    public static void oddnumber1(Integer a, Integer b)
+        {
+            Integer c=a/2;
+        }
         
 
 }
