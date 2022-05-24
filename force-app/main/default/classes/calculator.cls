@@ -18,6 +18,7 @@ public with sharing class calculator {
         {
             Integer o=m/2;
         }
+        //devop test
     }
 
              public static void multiply(Integer a, Integer b)
