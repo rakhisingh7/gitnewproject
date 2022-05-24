@@ -9,4 +9,8 @@ public with sharing class calculator {
         {
             Integer c=a+b;
         }
+             public static void multiply(Integer a, Integer b)
+     {
+         Integer c=a*b;
+     }
 }
