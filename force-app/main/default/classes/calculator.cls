@@ -9,4 +9,8 @@ public with sharing class calculator {
         {
             Integer c=a+b;
         }
-}
+        public static void division(Integer n, Integer m)
+        {
+            Integer o=m/n;
+        }
+    }
