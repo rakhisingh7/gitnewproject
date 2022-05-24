@@ -14,6 +14,10 @@ public with sharing class calculator {
         {
             Integer o=m/n;
         }
+        public static void evennumber(Integer n, Integer m)
+        {
+            Integer o=m/2;
+        }
     }
 
              public static void multiply(Integer a, Integer b)
