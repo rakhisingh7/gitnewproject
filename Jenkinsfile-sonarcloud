@@ -1,0 +1,10 @@
+node {
+  stage('SCM') {
+    git 'https://github.com/rakhisingh7/gitnewproject.git'
+  }
+  stage('SonarQube analysis') {
+    withSonarQubeEnv('SonarCloud') { // If you have configured more than one global server connection, you can specify its name
+      sh "C:/Users/india/Downloads/sonar-scanner-4.8.0.2856-windows/bin/sonar-scanner"
+    }
+  }
+}
