@@ -3,6 +3,6 @@ node {
     git 'https://github.com/rakhisingh7/gitnewproject.git'
   }
   stage('SonarQube analysis') {
-      bat "C:/Users/india/Downloads/sonar-scanner/bin/sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=rakhisingh7@github -Dsonar.organization=rakhisingh7 -Dsonar.projectName=gitnewproject -Dsonar.token=d4e7b245057bf27756e4ef1f367977f17587a521 "
+      bat "C:/Users/india/Downloads/sonar-scanner/bin/sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=rakhisingh7@github -Dsonar.organization=rakhisingh7 -Dsonar.projectName=gitnewproject -Dsonar.token=d4e7b245057bf27756e4ef1f367977f17587a521"
   }
 }
