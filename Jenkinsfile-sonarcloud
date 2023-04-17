@@ -4,8 +4,6 @@ node {
   }
   stage('SonarQube analysis') {
     def scannerHome = 'C:/Users/india/Downloads/sonar-scanner-4.8.0.2856-windows';
-    withSonarQubeEnv { // If you have configured more than one global server connection, you can specify its name
-      sh "${scannerHome}/bin/sonar-scanner"
-    }
+      sh "${scannerHome}/bin/sonar-scanner -Dsonar.login=rakhisingh7@github  -Dsonar.projectName=rakhisingh7 -Dsonar.projectKey=d4e7b245057bf27756e4ef1f367977f17587a521 "
   }
 }
